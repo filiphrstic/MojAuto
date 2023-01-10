@@ -1,0 +1,5 @@
+query findCategoryByCode($code: String) {
+  findOneCategory(where: { code: { equals: $code } }) {
+    ...categoryFragment
+  }
+}

@@ -1,0 +1,7 @@
+query findAllLists {
+  findMyLists {
+    list_id
+    list_type
+    title
+  }
+}

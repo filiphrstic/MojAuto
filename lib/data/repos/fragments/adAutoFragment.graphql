@@ -1,0 +1,26 @@
+fragment adAutoFragment on AdAuto {
+    __typename
+    condition_type_cid
+    vehicle_type_cid
+    fuel_type_cid
+    transmission_type_cid
+    make_cid
+    model_cid
+    year
+    km
+    power_kw
+    body_type_cid
+    variant_cid
+    registered_until
+    doors_num
+    seats_num
+    is_first_owner
+    is_service_book_available
+    is_vehicle_garaged
+    engine_displacement_cm3
+    emission_class_cid
+    battery_capacity_kwh
+    conditioning_cid
+    color_exterior_cid
+    color_interior_cid
+}

@@ -1,0 +1,339 @@
+{
+    "msg": "result",
+    "id": "[#a538e]",
+    "result": {
+        "messages": [
+            {
+                "_id": "ZRoHmDHPNWaDgrHfW",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "f",
+                "ts": {
+                    "$date": 1670950956880
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670950956899
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "gDqFSA8nec6bJsMrC",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "z",
+                "ts": {
+                    "$date": 1670950952052
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670950952076
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "L4u6DQHrkgyfv9aNj",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "z",
+                "ts": {
+                    "$date": 1670945609574
+                },
+                "u": {
+                    "_id": "JawnrFsptmLMkGHwM",
+                    "username": "mobile-app",
+                    "name": "mobile-app"
+                },
+                "_updatedAt": {
+                    "$date": 1670945609604
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "z"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "FJcJbNCoM5tkjkr2t",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "xx",
+                "ts": {
+                    "$date": 1670945458326
+                },
+                "u": {
+                    "_id": "JawnrFsptmLMkGHwM",
+                    "username": "mobile-app",
+                    "name": "mobile-app"
+                },
+                "_updatedAt": {
+                    "$date": 1670945458350
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "xx"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "XP4hTkH8Hmi6esDQF",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "x",
+                "ts": {
+                    "$date": 1670945443826
+                },
+                "u": {
+                    "_id": "JawnrFsptmLMkGHwM",
+                    "username": "mobile-app",
+                    "name": "mobile-app"
+                },
+                "_updatedAt": {
+                    "$date": 1670945443845
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "x"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "L3DkHtT2GEzeqTYgS",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "ff",
+                "ts": {
+                    "$date": 1670942935003
+                },
+                "u": {
+                    "_id": "JawnrFsptmLMkGHwM",
+                    "username": "mobile-app",
+                    "name": "mobile-app"
+                },
+                "_updatedAt": {
+                    "$date": 1670942935023
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "ff"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "CfiqxkdHTwPSWrdcH",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "f",
+                "ts": {
+                    "$date": 1670942356566
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670942356598
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "ENbkRGBRGJB7BDE5N",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "zz",
+                "ts": {
+                    "$date": 1670942353086
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670942353111
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "zz"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "BCYHKSwzpM5S2CmSg",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "zzz",
+                "ts": {
+                    "$date": 1670942099333
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670942099359
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "zzz"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "MmLAyMocE6DtNuZHd",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "www",
+                "ts": {
+                    "$date": 1670942042025
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670942042050
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "www"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": "FY97krxQQMJPP3mRf",
+                "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+                "msg": "test",
+                "ts": {
+                    "$date": 1670941845674
+                },
+                "u": {
+                    "_id": "vqWcsNSexsAiQfwHH",
+                    "username": "root",
+                    "name": "Administarator"
+                },
+                "_updatedAt": {
+                    "$date": 1670941845699
+                },
+                "urls": [],
+                "mentions": [],
+                "channels": [],
+                "md": [
+                    {
+                        "type": "PARAGRAPH",
+                        "value": [
+                            {
+                                "type": "PLAIN_TEXT",
+                                "value": "test"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "unreadNotLoaded": 0
+    }
+}

@@ -1,0 +1,10 @@
+query findTrendingAds {
+  findAllAds(
+    take: 6
+    orderBy:{
+      created_at: desc
+    }
+  ) {
+    ...adWithAdAutoFragment
+  }
+}

@@ -1,0 +1,14 @@
+mutation createList($list_type: Int, $title: String!, $search_params: JSON!, $user_sub: String) {
+  createList(
+    data: {
+      list_type: $list_type
+      title: $title
+      search_params: $search_params
+      user: { connect: { user_sub: $user_sub } }
+    }
+  ) {
+    list_id
+    list_type
+    title
+  }
+}

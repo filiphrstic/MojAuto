@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Flutter-pub-get",
+			"type": "shell",
+			"command": "flutter pub get",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"detail": "Install dependancies"
+		},
+		{
+			"label": "Flutter-build-packages",
+			"type": "shell",
+			"command": "flutter packages pub run build_runner build --delete-conflicting-outputs",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"detail": "Build g.dart models after modifications"
+		}
+	]
+}

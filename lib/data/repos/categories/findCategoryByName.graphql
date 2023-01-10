@@ -1,0 +1,5 @@
+query findCategoryByName($name: String) {
+  findOneCategory(where: { name: { equals: $name }}) {
+    ...categoryFragment
+  }
+}

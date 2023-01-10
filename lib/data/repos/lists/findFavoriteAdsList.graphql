@@ -1,0 +1,10 @@
+query findFavoriteAdsList($list_type: Int) {
+  findOneList(where: { list_type: { equals: $list_type } }) {
+    list_id
+    ListAd {
+      ad {
+        ad_id
+      }
+    }
+  }
+}

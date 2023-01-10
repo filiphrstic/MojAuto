@@ -1,0 +1,28 @@
+targets:
+  $default:
+    builders:
+      artemis:
+        options:
+          generate_helpers: true
+
+          ignore_for_file:
+            - depend_on_referenced_packages, non_constant_identifier_names, prefer_const_declarations, prefer_const_constructors, prefer_const_literals_to_create_immutables, overridden_fields
+
+          schema_mapping:
+            - output: lib/data/graphql/schema.generated.dart
+              schema: lib/data/graphql/schema.graphql
+              queries_glob: lib/data/repos/**/*.graphql
+
+          scalar_mapping:
+            - custom_parser_import: '../../utils/coercers.dart'
+              graphql_type: DateTime
+              dart_type: DateTime
+            - custom_parser_import: '../../utils/coercers.dart'
+              graphql_type: JSON
+              dart_type: String
+            - custom_parser_import: '../../utils/coercers.dart'
+              graphql_type: Decimal
+              dart_type:
+                name: Decimal
+                imports:
+                  - 'package:decimal/decimal.dart'

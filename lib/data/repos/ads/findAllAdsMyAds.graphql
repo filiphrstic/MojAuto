@@ -1,0 +1,14 @@
+query findAllAdsMyAds ($userSub:String, $isSold:Boolean) {
+    findAllAds (
+        where: {
+            user_sub: {
+                equals: $userSub
+            }
+            is_sold: {
+                equals: $isSold
+            }
+        }
+    ) {
+        ...adWithAdAutoFragment
+    }
+}

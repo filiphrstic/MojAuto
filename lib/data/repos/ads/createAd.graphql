@@ -1,0 +1,108 @@
+mutation createNewAd (
+    $title: String!, 
+    $text: String!, 
+    $price: Int, 
+    $year: Int!, 
+    $km: Int, 
+    $power_kw: Int, 
+    $path: String!, 
+    $filename: String!, 
+    $code: String!, 
+    $filesize: Int!, 
+    $brand_id: Int, 
+    $model_id: Int, 
+    $variant_id: Int, 
+    $bodyType_id: Int, 
+    $condition_id: Int, 
+    $fuelType_id: Int, 
+    $transmission_id: Int, 
+    ) 
+    {
+    createAd(
+      data: {
+        title: $title
+        text: $text
+        price_eurocent: $price
+        ad_auto: {
+          create: {
+            year: $year
+            km: $km
+            power_kw: $power_kw
+            make: {
+                connect: {
+                    category_id: $brand_id
+                }
+            }
+            model: {
+                connect: {
+                    category_id: $model_id
+                }
+            }
+            variant: {
+                connect: {
+                    category_id: $variant_id
+                }
+            }
+            body_type: {
+                connect: {
+                    category_id: $bodyType_id
+                }
+            }
+            condition_type: {
+                connect: {
+                    category_id: $condition_id
+                }
+            }
+            fuel_type: {
+                connect: {
+                    category_id: $fuelType_id
+                }
+            }
+            transmission_type: {
+                connect: {
+                    category_id: $transmission_id
+                }
+            }
+          }
+        }
+        files: {
+          create: {
+            code: $code
+            filename: $filename
+            path: $path
+            filesize: $filesize
+          }
+        }
+      }
+    ){
+        ad_id
+        created_at
+        updated_at
+        deleted_at
+        title
+        text
+        coords_latitude
+        coords_longitude
+        coords_radius
+        address
+        price_eurocent
+        ad_auto { 
+            condition_type_cid
+            vehicle_type_cid
+            fuel_type_cid
+            transmission_type_cid
+            make_cid
+            model_cid
+            year
+            km
+            power_kw 
+        }
+      	files {
+          file_id
+          filename
+          filesize
+          code
+          path
+        }
+    }
+}

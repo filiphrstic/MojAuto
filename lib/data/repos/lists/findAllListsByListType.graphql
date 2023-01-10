@@ -1,0 +1,8 @@
+query findAllListsByListType($list_type: Int) {
+  findMyLists(where: { list_type: { equals: $list_type }}) {
+    list_id
+    list_type
+    title
+    search_params
+  }
+}

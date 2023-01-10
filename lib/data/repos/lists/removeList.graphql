@@ -1,0 +1,3 @@
+mutation removeList($list_id: Int!) {
+  removeList(where: { list_id: $list_id } )
+}

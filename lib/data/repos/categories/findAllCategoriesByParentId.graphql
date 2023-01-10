@@ -1,0 +1,5 @@
+query findAllCategoriesByParentId($parent_category_id: Int) {
+  findAllCategories(where: { parent_category_id: { equals: $parent_category_id }}) {
+    ...categoryFragment
+  }
+}

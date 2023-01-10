@@ -1,0 +1,21 @@
+fragment adWithAdAutoFragment on Ad {
+    __typename
+    ad_id
+    created_at
+    updated_at
+    deleted_at
+    title
+    text
+    coords_latitude
+    coords_longitude
+    coords_radius
+    address
+    price_eurocent
+    price_rating
+    files {
+        path
+    }
+    ad_auto {
+        ...adAutoFragment
+    }
+}

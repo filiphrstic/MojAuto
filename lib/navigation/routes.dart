@@ -1,0 +1,25 @@
+const String loginScreenRoute = '/login';
+const String adDetailsScreenRoute = '/ad_details';
+const String filterScreenRoute = '/filter';
+const String filterResultsScreenRoute = '/filter_results';
+const String newCarsScreenRoute = '/new_cars';
+const String brandsScreenRoute = '/brands';
+const String notificationsScreenRoute = '/notifications';
+const String settingsScreenRoute = '/settings';
+const String myAdsScreenRoute = '/my_ads';
+const String analyticsScreenRoute = '/analytics';
+const String photoViewScreenRoute = '/photo_view';
+const String mapViewScreenRoute = '/map_view';
+const String blogPostsScreenRoute = '/blog_posts';
+const String newAdStep2ScreenRoute = '/new_ad_step2';
+const String newAdStep3ScreenRoute = '/new_ad_step3';
+const String newAdStep4ScreenRoute = '/new_ad_step4';
+const String userDetailsScreenRoute = '/user_details';
+const String messagesScreenRoute = '/messages';
+// NavigationMenu routes
+const String homeScreenRoute = '/';
+const String favoritesScreenRoute = '/favorites';
+const String savedSearchesScreenRoute = '/saved_searches';
+const String newAdStep1ScreenRoute = '/new_ad_step1';
+const String profileScreenRoute = '/profile';
+const String chatRoute = '/chat';

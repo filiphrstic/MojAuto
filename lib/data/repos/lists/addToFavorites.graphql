@@ -1,0 +1,5 @@
+mutation addToFavorites($ad_id: Int) {
+  addToFavorites(where: { ad_id: $ad_id }) {
+    ad_id
+  }
+}

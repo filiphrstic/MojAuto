@@ -1,0 +1,10 @@
+mutation createListAd($list_id: Int, $ad_id: Int) {
+  createListAd(
+    data: {
+      list: { connect: { list_id: $list_id } },
+				ad: { connect: { ad_id: $ad_id} },
+    }
+  ) {
+    ad_id
+  }
+}

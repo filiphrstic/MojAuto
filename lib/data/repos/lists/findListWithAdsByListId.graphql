@@ -1,0 +1,13 @@
+query findListWithAdsByListId($list_id: Int) {
+  findOneList(where: { list_id: { equals: $list_id } }) {
+    list_id
+    list_type
+    title
+    ListAd {
+      ad_id
+      ad {
+        ...adWithAdAutoFragment
+      }
+    }
+  }
+}

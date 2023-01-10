@@ -1,0 +1,5 @@
+mutation removeFromList($ad_id: Int!, $list_id: Int!) {
+  removeListAd(where: { ad_id_list_id: { ad_id: $ad_id, list_id: $list_id } }) {
+    ad_id
+  }
+}

@@ -1,0 +1,8 @@
+fragment fileFragment on File {
+    __typename
+    file_id
+    filename
+    filesize
+    code
+    path
+}

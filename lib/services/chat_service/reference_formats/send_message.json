@@ -1,0 +1,34 @@
+{
+    "msg": "result",
+    "id": "[#56d46]",
+    "result": {
+        "_id": "[#56d46]",
+        "rid": "JawnrFsptmLMkGHwMvqWcsNSexsAiQfwHH",
+        "msg": "zzzz",
+        "ts": {
+            "$date": 1670951403243
+        },
+        "u": {
+            "_id": "JawnrFsptmLMkGHwM",
+            "username": "mobile-app",
+            "name": "mobile-app"
+        },
+        "_updatedAt": {
+            "$date": 1670951403264
+        },
+        "urls": [],
+        "mentions": [],
+        "channels": [],
+        "md": [
+            {
+                "type": "PARAGRAPH",
+                "value": [
+                    {
+                        "type": "PLAIN_TEXT",
+                        "value": "zzzz"
+                    }
+                ]
+            }
+        ]
+    }
+}

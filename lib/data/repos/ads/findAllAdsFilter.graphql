@@ -1,0 +1,53 @@
+query findAllAdsFilter (
+    $minimum_price: Int, 
+    $maximum_price: Int, 
+    $AdAutoConditionType: Int, 
+    $AdAutoFuelType: Int, 
+    $AdAutoMakeType: Int, 
+    $AdAutoTransmissionType: Int, 
+    $AdAutoBodyType: Int, 
+    $AdAutoVehicleType: Int, 
+    $AdAutoModel: Int, 
+    $AdAutoVariant: Int, 
+    $order: [AdOrderByWithRelationInput!]
+) {
+    findAllAds (
+        where: {
+            price_eurocent: {
+                gte: $minimum_price,
+                lte: $maximum_price
+            }
+            ad_auto: {
+                is: {
+                    condition_type_cid: {
+                        equals: $AdAutoConditionType
+                    },
+                    fuel_type_cid: {
+                        equals: $AdAutoFuelType
+                    },
+                    make_cid: {
+                        equals: $AdAutoMakeType
+                    },
+                    transmission_type_cid: {
+                        equals: $AdAutoTransmissionType
+                    },
+                    body_type_cid: {
+                        equals: $AdAutoBodyType
+                    },
+                    vehicle_type_cid: {
+                        equals: $AdAutoVehicleType
+                    },
+                    model_cid: {
+                        equals: $AdAutoModel
+                    },
+                    variant_cid: {
+                        equals: $AdAutoVariant
+                    }
+                }
+            }
+        },
+        orderBy: $order
+    ) {
+        ...adWithAdAutoFragment
+    }
+}

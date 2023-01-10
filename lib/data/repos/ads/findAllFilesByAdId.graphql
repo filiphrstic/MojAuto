@@ -1,0 +1,8 @@
+query findAllFilesByAdId($ad_id: Int!) {
+  findUniqueAd(where: { ad_id:  $ad_id } ) {
+    ad_id
+    files {
+      ...fileFragment
+    }
+  }
+}
