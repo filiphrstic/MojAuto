@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
   Widget _buildCoreProviders(BuildContext context) {
     return GraphqlServiceProvider(
       //ADD GRAPHQL SERVER HERE
-      uri: 'graphql server name',
+      uri: 'graphql server address',
       child: _buildConsumerProviders(context),
     );
   }
@@ -50,7 +50,8 @@ class MyApp extends StatelessWidget {
 
   Widget _buildApp(BuildContext context) {
     final client = ValueNotifier(
-      getClient(uri: 'https://api.autofox.iddqd.hr/graphql'),
+      //ADD GRAPHQL SERVER HERE
+      getClient(uri: 'graphql server address'),
     );
     //makes status bar icons and text dark (clock, battery, wifi etc.)
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
