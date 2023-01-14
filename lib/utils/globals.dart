@@ -10,5 +10,6 @@ ValueNotifier<List<AdWithAdAutoFragmentMixin>> compareAdsIdsListGlobal = ValueNo
 int? favoriteAdsListIdGlobal;
 ValueNotifier<ViewType> selectedViewType = ValueNotifier(ViewType.list);
 
-const String imageSourceAddress = "https://autofox-v.azureedge.net/ad-files/";
-const String productsUrl = "https://web.autofox.iddqd.hr/products/";
+//ADD SERVER INFO HERE
+const String imageSourceAddress = "path to images source";
+const String productsUrl = "path to products source";
