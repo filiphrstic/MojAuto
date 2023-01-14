@@ -12,7 +12,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'internationalization/supported_locales.dart';
 import 'package:i18next/i18next.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-//import 'package:provider/provider.dart';
 
 void main() async {
   await initHiveForFlutter();
@@ -33,7 +32,8 @@ class MyApp extends StatelessWidget {
 
   Widget _buildCoreProviders(BuildContext context) {
     return GraphqlServiceProvider(
-      uri: 'https://api.autofox.iddqd.hr/graphql',
+      //ADD GRAPHQL SERVER HERE
+      uri: 'graphql server name',
       child: _buildConsumerProviders(context),
     );
   }
