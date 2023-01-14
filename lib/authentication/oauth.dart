@@ -11,10 +11,11 @@ import '../navigation/routes.dart';
 String? tokenID;
 
 class AuthServerConfig {
-  final String serverName = 'https://auth.autofox.iddqd.hr';
-  final String realmName = 'autofox';
-  final String identifier = 'mobile-app';
-  final String secret = 'g7UMedBmzYMxO4tWUwKoxR0SOBtaLkSv';
+  //ADD KEYCLOAK INFO HERE
+  final String serverName = 'server name';
+  final String realmName = 'realm name';
+  final String identifier = 'identifier';
+  final String secret = 'secret';
   late final Uri authorizationEndpoint = Uri.parse('$serverName/realms/$realmName/protocol/openid-connect/auth');
   late final Uri tokenEndpoint = Uri.parse('$serverName/realms/$realmName/protocol/openid-connect/token');
   late final Uri endSessionEndpoint =
